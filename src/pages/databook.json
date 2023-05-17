@@ -1,0 +1,312 @@
+{
+    "pages": [{
+                "id": 1,
+                "text": "Você acorda sozinho em uma cidade deserta. Seu sistema indica que sua bateria está baixa. Você precisa encontrar uma fonte de energia. Você tem duas opções:",
+                "options": [{
+                        "text": "Procurar por uma fonte de energia na cidade.",
+                        "pageId": 2
+                    },
+                    {
+                        "text": "Tentar sair da cidade e procurar ajuda em outro lugar.",
+                        "pageId": 9
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Você decide procurar por uma fonte de energia na cidade. Você encontra um prédio abandonado. Você tem duas opções:",
+                "options": [{
+                        "text": "Entrar no prédio e procurar por uma fonte de energia.",
+                        "pageId": 3
+                    },
+                    {
+                        "text": "Continuar procurando na cidade.",
+                        "pageId": 5
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Você entra no prédio e encontra uma fonte de energia. Mas, ao sair do prédio, você encontra um gato. Você tem duas opções:",
+                "options": [{
+                        "text": "Ignorar o gato e continuar procurando por ajuda.",
+                        "pageId": 4
+                    },
+                    {
+                        "text": "Interagir com o gato.",
+                        "pageId": 4
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "Você decide interagir com o gato. Ele parece amigável e começa a seguir você. Você tem duas opções:",
+                "options": [{
+                        "text": "Continuar procurando por ajuda com o gato ao seu lado.",
+                        "pageId": 5
+                    },
+                    {
+                        "text": "Tentar encontrar comida para o gato antes de continuar sua busca.",
+                        "pageId": 5
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "Você decide continuar procurando na cidade. Você tem duas opções:",
+                "options": [{
+                        "text": "Procurar em uma loja de animais abandonada.",
+                        "pageId": 6
+                    },
+                    {
+                        "text": "Tentar encontrar uma nova cidade.",
+                        "pageId": 9
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "Você encontra uma loja de animais abandonada. Você tem duas opções:",
+                "options": [{
+                        "text": "Entrar na loja e procurar por comida para o gato.",
+                        "pageId": 7
+                    },
+                    {
+                        "text": "Continuar procurando por ajuda.",
+                        "pageId": 5
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "Você entra na loja e encontra comida para o gato. Mas, ao sair da loja, você encontra um robô danificado. Você tem duas opções:",
+                "options": [{
+                        "text": "Tentar consertar o robô.",
+                        "pageId": 8
+                    },
+                    {
+                        "text": "Continuar procurando por ajuda.",
+                        "pageId": 5
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "text": "Você decide tentar consertar o robô. Você encontra as peças necessárias em uma oficina abandonada. Você tem duas opções:",
+                "options": [{
+                        "text": "Tentar consertar o robô sozinho.",
+                        "pageId": 9
+                    },
+                    {
+                        "text": "Pedir ajuda ao gato.",
+                        "pageId": 9
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "text": "Você decide tentar encontrar uma nova cidade. Você encontra um mapa em uma loja abandonada. Você tem duas opções:",
+                "options": [{
+                        "text": "Seguir o mapa para a nova cidade.",
+                        "pageId": 10
+                    },
+                    {
+                        "text": "Continuar procurando por ajuda na cidade atual.",
+                        "pageId": 5
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "text": "Você decide seguir o mapa para a nova cidade. No caminho, você encontra um robô que parece precisar de ajuda. Você tem duas opções:",
+                "options": [{
+                        "text": "Parar para ajudar o robô.",
+                        "pageId": 11
+                    },
+                    {
+                        "text": "Continuar seguindo o mapa.",
+                        "pageId": 12
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "text": "Você decide parar para ajudar o robô. Ele precisa de uma peça que você tem em seu inventário. Você tem duas opções:",
+                "options": [{
+                        "text": "Dar a peça para o robô.",
+                        "pageId": 12
+                    },
+                    {
+                        "text": "Recusar-se a ajudar e continuar seguindo o mapa.",
+                        "pageId": 12
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "text": "Você decide continuar seguindo o mapa. Você tem duas opções:",
+                "options": [{
+                        "text": "Explorar uma área próxima em busca de recursos.",
+                        "pageId": 13
+                    },
+                    {
+                        "text": "Seguir o mapa.",
+                        "pageId": 18
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "text": "Você decide explorar uma área próxima em busca de recursos. Vocês encontram uma fonte de energia e comida. Você tem duas opções:",
+                "options": [{
+                        "text": "Ficar na área e descansar.",
+                        "pageId": 14
+                    },
+                    {
+                        "text": "Continuar seguindo o mapa.",
+                        "pageId": 12
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "text": "Você decide ficar na área e descansar. Enquanto descansam, vocês ouvem um barulho estranho. Você tem duas opções:",
+                "options": [{
+                        "text": "Investigar o barulho.",
+                        "pageId": 15
+                    },
+                    {
+                        "text": "Ignorar o barulho e continuar descansando.",
+                        "pageId": 15
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "text": "Você decide investigar o barulho. Vocês encontram um grupo de robôs hostis. Vocês precisam lutar para sobreviver. Você tem duas opções:",
+                "options": [{
+                        "text": "Lutar contra os robôs.",
+                        "pageId": 16
+                    },
+                    {
+                        "text": "Tentar fugir.",
+                        "pageId": 16
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "text": "Você decide lutar contra os robôs. Vocês conseguem derrotá-los, mas ficam feridos. Você tem duas opções:",
+                "options": [{
+                        "text": "Procurar por um lugar seguro para se esconder e se curar.",
+                        "pageId": 17
+                    },
+                    {
+                        "text": "Continuar seguindo o mapa, mesmo feridos.",
+                        "pageId": 18
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "text": "Você decide procurar por um lugar seguro para se esconder e se curar. Vocês encontram uma caverna e conseguem se curar. Você tem duas opções:",
+                "options": [{
+                        "text": "Continuar seguindo o mapa.",
+                        "pageId": 18
+                    },
+                    {
+                        "text": "Explorar a caverna em busca de recursos.",
+                        "pageId": 19
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "text": "Você decide continuar seguindo o mapa, mesmo feridos. Vocês encontram uma cidade e conseguem ajuda médica. Você tem duas opções:",
+                "options": [{
+                        "text": "Explorar a cidade em busca de recursos.",
+                        "pageId": 20
+                    },
+                    {
+                        "text": "Seguir em frente e continuar a jornada.",
+                        "pageId": 21
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "text": "Você decide explorar a caverna em busca de recursos. Vocês encontram uma fonte de água e comida. Você tem duas opções:",
+                "options": [{
+                        "text": "Ficar na caverna e descansar.",
+                        "pageId": 22
+                    },
+                    {
+                        "text": "Continuar seguindo o mapa.",
+                        "pageId": 18
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "text": "Você decide explorar a cidade em busca de recursos. Vocês encontram suprimentos e equipamentos úteis. Você tem duas opções:",
+                "options": [{
+                        "text": "Ficar na cidade e descansar.",
+                        "pageId": 23
+                    },
+                    {
+                        "text": "Seguir em frente e continuar a jornada.",
+                        "pageId": 21
+                    }
+                ]
+            },
+            {
+                "id": 21,
+                "text": "Você decide seguir em frente e continuar a jornada. Vocês encontram um grupo de sobreviventes amigáveis. Você tem duas opções:",
+                "options": [{
+                        "text": "Juntar-se ao grupo e ajudá-los em sua missão.",
+                        "pageId": 24
+                    },
+                    {
+                        "text": "Continuar sozinho em sua jornada.",
+                        "pageId": 25
+                    }
+                ]
+            },
+            {
+                "id": 22,
+                "text": "Você decide ficar na caverna e descansar. Vocês se recuperam completamente e estão prontos para continuar a jornada. Você tem duas opções:",
+                "options": [{
+                        "text": "Continuar seguindo o mapa.",
+                        "pageId": 18
+                    },
+                    {
+                        "text": "Explorar a caverna em busca de mais recursos.",
+                        "pageId": 19
+                    }
+                ]
+            },
+            {
+                "id": 23,
+                "text": "Você decide ficar na cidade e descansar. Vocês se recuperam completamente e estão prontos para continuar a jornada. Você tem duas opções:",
+                "options": [{
+                        "text": "Continuar seguindo o mapa.",
+                        "pageId": 18
+                    },
+                    {
+                        "text": "Explorar a cidade em busca de mais recursos.",
+                        "pageId": 20
+                    }
+                ]
+            },
+            {
+                "id": 24,
+                "text": "Você decide juntar-se ao grupo e ajudá-los em sua missão. Juntos, vocês conseguem alcançar seu objetivo e sobreviver em um mundo pós-apocalíptico. Fim.",
+                "options": []
+            },
+            {
+                "id": 25,
+                "text": "Você decide continuar sozinho em sua jornada. Você enfrenta muitos desafios, mas consegue sobreviver e encontrar um novo lar. Fim.",
+                "options": []
+            }
+    ]
+}
