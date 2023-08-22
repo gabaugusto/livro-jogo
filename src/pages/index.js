@@ -1,5 +1,6 @@
 // pages/index.js
 import { useState } from 'react';
+
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ColorModeToggle from '../components/ColorModeToggle';
